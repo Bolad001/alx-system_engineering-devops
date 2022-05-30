@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -name \*.jpg -or -name \*.png -not -path \*/\.\* | wc -l
